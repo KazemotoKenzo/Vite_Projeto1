@@ -5,12 +5,24 @@ const Header = () => {
   return (
     <HeaderBar>
       <img src={logo} />
-      <ul>
-        <li>Academia</li>
-        <li>Espaço do Cliente</li>
-        <li>Seja um franqueado</li>
-      </ul>
-      <span>---</span>
+      <div>
+        <ul>
+          <li>
+            <a>Academia</a>
+          </li>
+          <li>
+            <a>Espaço do Cliente</a>
+          </li>
+          <li>
+            <a>Seja um franqueado</a>
+          </li>
+        </ul>
+        <button>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
     </HeaderBar>
   );
 };
