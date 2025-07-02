@@ -27,6 +27,35 @@ export const CardList = styled.div`
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 8px;
   width: 100%;
+
+  .plano-black {
+    background-color: rgb(59, 59, 64);
+    color: #ccc;
+
+    span {
+      color: #fff;
+    }
+
+    h4 {
+      color: #fff;
+    }
+
+    .vantagem {
+      position: absolute;
+      background-color: rgb(255, 182, 18);
+      top: -12px;
+      left: 24px;
+      border-radius: 8px;
+      width: 172px;
+      text-align: center;
+      color: #3b3b40;
+
+      span {
+        font-weight: 700;
+        color: #000;
+      }
+    }
+  }
 `;
 
 export const Card = styled.div`
@@ -73,21 +102,5 @@ export const Card = styled.div`
         vertical-align: middle;
       }
     }
-  }
-`;
-//background-color: rgb(59, 59, 64);
-
-export const Value = styled.span`
-  position: absolute;
-  background-color: rgb(255, 182, 18);
-  top: -12px;
-  left: 24px;
-  border-radius: 8px;
-  width: 172px;
-  text-align: center;
-  font-weight: 700;
-
-  span {
-    color: #000;
   }
 `;

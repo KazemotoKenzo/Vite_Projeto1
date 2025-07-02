@@ -1,4 +1,4 @@
-import { Card, CardList, Section, Titulo, Value } from './styles';
+import { Card, CardList, Section, Titulo } from './styles';
 
 const Assinaturas = () => {
   return (
@@ -13,10 +13,10 @@ const Assinaturas = () => {
         </p>
       </Titulo>
       <CardList>
-        <Card>
-          <Value>
+        <Card className="plano-black">
+          <span className="vantagem">
             O mais <span>vantajoso</span>
-          </Value>
+          </span>
           <h4>Plano Black</h4>
 
           <p>
@@ -77,6 +77,7 @@ const Assinaturas = () => {
             </tr>
           </table>
         </Card>
+
         <Card>
           <h4>Plano Black</h4>
 
@@ -138,6 +139,7 @@ const Assinaturas = () => {
             </tr>
           </table>
         </Card>
+
         <Card>
           <h4>Plano Smart</h4>
 
@@ -200,6 +202,11 @@ const Assinaturas = () => {
           </table>
         </Card>
       </CardList>
+
+      <Titulo>
+        Os preços, taxas e condições promocionais podem variar de acordo com a
+        academia escolhida.
+      </Titulo>
     </Section>
   );
 };
