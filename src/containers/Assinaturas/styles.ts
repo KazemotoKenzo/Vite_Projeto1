@@ -21,22 +21,13 @@ export const Titulo = styled.div`
 `;
 
 export const CardList = styled.div`
-  max-width: 976px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 8px;
-  width: 100%;
-
   .plano-black {
     background-color: rgb(59, 59, 64);
     color: #ccc;
 
-    span {
-      color: #fff;
-    }
-
-    h4 {
+    span,
+    h4,
+    td {
       color: #fff;
     }
 
@@ -81,15 +72,6 @@ export const Card = styled.div`
   h5 {
     font-weight: normal;
     color: #9f9fa7;
-  }
-
-  button {
-    padding: 8px 16px;
-    border-radius: 18px;
-    background-color: rgb(255, 182, 18);
-    border: 2px solid rgb(255, 182, 18);
-    font-weight: 700;
-    cursor: pointer;
   }
 
   table {

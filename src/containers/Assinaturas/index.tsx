@@ -12,14 +12,14 @@ const Assinaturas = () => {
           Os melhores equipamentos e infraestrutura com mensalidades acessíveis.
         </p>
       </Titulo>
-      <CardList>
+      <CardList className="grid">
         <Card className="plano-black">
           <span className="vantagem">
             O mais <span>vantajoso</span>
           </span>
           <h4>Plano Black</h4>
 
-          <p>
+          <p className="small">
             Treine em qualquer academia da Smart Fit, seja no Brasil ou na
             América Latina. São +1.700 unidades em 15 países!
           </p>
@@ -36,7 +36,7 @@ const Assinaturas = () => {
 
           <h5>12 meses de fidelidade</h5>
 
-          <button>Contratar agora</button>
+          <a className="btn">Contratar agora</a>
 
           <table>
             <tr>
@@ -81,7 +81,7 @@ const Assinaturas = () => {
         <Card>
           <h4>Plano Black</h4>
 
-          <p>
+          <p className="small">
             Treine em qualquer academia da Smart Fit, seja no Brasil ou na
             América Latina. São +1.700 unidades em 15 países!
           </p>
@@ -98,7 +98,7 @@ const Assinaturas = () => {
 
           <h5>12 meses de fidelidade</h5>
 
-          <button>Buscar academia</button>
+          <a className="btn">Buscar academia</a>
 
           <table>
             <tr>
@@ -143,7 +143,7 @@ const Assinaturas = () => {
         <Card>
           <h4>Plano Smart</h4>
 
-          <p>
+          <p className="small">
             Nosso plano mensal para você que não quer se comprometer, mas quer
             treinar em uma academia de alto padrão
           </p>
@@ -160,7 +160,7 @@ const Assinaturas = () => {
 
           <h5>Sem fidelidade</h5>
 
-          <button>Buscar academia</button>
+          <a className="btn">Buscar academia</a>
 
           <table>
             <tr>

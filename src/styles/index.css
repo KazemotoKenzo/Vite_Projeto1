@@ -8,3 +8,28 @@
   text-decoration: none;
   font-family: 'DM Sans', sans-serif;
 }
+
+.grid {
+  max-width: 976px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 8px;
+  width: 100%;
+}
+
+.btn {
+  padding: 8px 16px;
+  border-radius: 18px;
+  background-color: rgb(255, 182, 18);
+  border: 2px solid rgb(255, 182, 18);
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+  display: block;
+  color: #000;
+}
+
+.small {
+  font-size: 14px;
+}
