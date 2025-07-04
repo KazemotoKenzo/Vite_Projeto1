@@ -27,6 +27,11 @@ export const Section = styled.section`
       img {
         width: 100%;
       }
+
+      &:hover {
+        outline-color: #ffad12;
+        box-shadow: 0 3px 20px rgba(0, 0, 0, 0.14);
+      }
     }
   }
 `;

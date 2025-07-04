@@ -28,6 +28,11 @@
   text-align: center;
   display: block;
   color: #000;
+  transition: background-color 0.2s;
+}
+
+.btn:hover {
+  filter: brightness(90%);
 }
 
 .small {
